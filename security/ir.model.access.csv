@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_method_balance_apertura_pos_method_balance_apertura_pos,method_balance_apertura_pos.method_balance_apertura_pos,model_method_balance_apertura_pos_method_balance_apertura_pos,,1,0,0,0
