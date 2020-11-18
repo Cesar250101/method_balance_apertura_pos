@@ -9,6 +9,6 @@ class Session(models.Model):
     @api.one
     def action_pos_session_open(self):
         if self.control_register_balance_start==0:
-            raise UserError(u'Debe establecer un saldo de partura de la caja')
+            raise UserError(u'Debe establecer un saldo de apartura de la caja!')
         else:
             return super(Session, self).action_pos_session_open()
